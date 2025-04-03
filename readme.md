@@ -1,4 +1,4 @@
-# Acode plugin Magical
+# Acode plugin Modded
 
 Read acode plugin [documentation](https://acode.app/plugin-docs) to develop plugin for acode editor.
 
