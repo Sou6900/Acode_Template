@@ -1,0 +1,19 @@
+{
+  "id": "plugin.acode.modded",
+  "name": "Plugin Modded",
+  "main": "dist/main.js",
+  "version": "1.0.0",
+  "readme": "readme.md",
+  "icon": "icon.png",
+  "license": "MIT",
+  "files": [],
+  "keywords": [],
+  "price": 0,
+  "minVersionCode": 290,
+  "author": {
+    "name": "Dev. Sourav",
+    "email": "",
+    "url": "",
+    "github": ""
+  }
+}
