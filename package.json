@@ -25,7 +25,6 @@
     "@babel/preset-env": "^7.20.2",
     "@types/ace": "^0.0.50",
     "babel-loader": "^9.1.0",
-    "cli-progress": "^3.12.0",
     "css-loader": "^7.1.2",
     "style-loader": "^4.0.0",
     "css-minimizer-webpack-plugin": "^7.0.0",
