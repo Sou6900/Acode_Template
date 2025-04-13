@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bajrangCoders/acode-plugin-template.git"
+    "url": "git+https://github.com/Sou6900/Acode_Template.git"
   },
   "author": "Sourav Chand",
   "license": "MIT",
   "bugs": {
     "url": "null"
   },
-  "homepage": "https://github.com/bajrangCoders/acode-plugin-template#readme",
+  "homepage": "https://github.com/Sou6900/Acode_Template/blob/main/readme.md",
   "dependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.20.5",
