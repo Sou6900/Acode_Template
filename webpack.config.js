@@ -27,6 +27,14 @@ module.exports = (env, options) => {
       test: /\.html/,  // Rule for HTML files
       use: ['html-loader'],
     },
+{
+  test: /\.(png|jpe?g|gif|svg)$/i,
+  type: 'asset/resource',
+  generator: {
+    filename: 'assets/[name][ext]', // Output pattern
+  },
+}
+
   ];
 
   const main = {
