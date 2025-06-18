@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node .devServer/start-dev",
     "build": "webpack && node .devServer/pack-zip.js",
-    "build-release": "webpack --mode production && node pack-zip.js"
+    "build-release": "webpack --mode production"
   },
   "repository": {
     "type": "git",
