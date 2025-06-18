@@ -1,4 +1,4 @@
-
+// non class based main.js
 import plugin from '../plugin.json';
 import { initPlugin } from './core/initPlugin.js';
 import './style.css';
