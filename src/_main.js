@@ -1,6 +1,6 @@
 // non class based main.js
 import plugin from '../plugin.json';
-import { initPlugin } from './core/initPlugin.js';
+import { initPlugin } from './initPlugin.js';
 import './style.css';
 import { getSettings, settingsList, onSettingsChange } from './settings.js';
 
