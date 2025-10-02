@@ -55,7 +55,7 @@ const settingsList = [
     info: 'If enabled, the plugin will be completely disabled.'
   },
 {
-    key: 'fstucture_backpopup',
+    key: 'mysetting_02',
     text: 'Text placeholder',
     value: getSettings().mysetting_02 ,
     prompt: 'Enter Prompt',
