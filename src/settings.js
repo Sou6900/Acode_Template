@@ -4,8 +4,9 @@ const appSettings = acode.require('settings');
 
 // Default setting values
 const defaultSettings = {
-  mysetting_01: false,
-  mysetting_02 : 'Texts'
+  mysetting_01 : false,
+  mysetting_02 : 'Texts',
+  mysetting_03 : 'val1'
 };
 
 // Get or initialize plugin settings
@@ -47,13 +48,15 @@ function getSettings() {
 
 // Settings list for the Acode plugin UI
 const settingsList = [
+  // checkbox ==========>
   {
     key: 'mysetting_01',
-    text: 'Disable Plugin',
+    text: 'Disable Plugin',  
     checkbox: getSettings().mysetting_01,
     value: getSettings().mysetting_01,
     info: 'If enabled, the plugin will be completely disabled.'
   },
+  // text placeholder ==========>
 {
     key: 'mysetting_02',
     text: 'Text placeholder',
@@ -61,6 +64,14 @@ const settingsList = [
     prompt: 'Enter Prompt',
     promptType: 'text',
     info: 'Enter Info'
+  },
+    // input option ==========>
+    {
+    key: 'mysetting_03',
+    text: 'Input Option',
+    value: getSettings().mysetting_03 ,
+    select: [[ "val1", "option 1 [Recommended]"], ["val2" , "option 2"] , ["val3", "option 3"] ],
+    info: "Choose Option"
   },
 ];
 
